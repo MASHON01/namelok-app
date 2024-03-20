@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import { GridComponent, ColumnsDirective, ColumnDirective, Page, Selection, Inject, Edit, Toolbar, Sort, Filter } from '@syncfusion/ej2-react-grids';
 
 import { customersData, customersGrid } from '../data/dummy';
